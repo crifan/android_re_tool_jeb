@@ -6,4 +6,4 @@
 
 举例：鼠标移动到某函数上，可以显示出函数的详情：
 
-![jeb_java_auto_context_info](../assets/img/jeb_java_auto_context_info.png)
+![jeb_java_auto_context_info](../../assets/img/jeb_java_auto_context_info.png)

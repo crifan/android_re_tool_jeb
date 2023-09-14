@@ -15,6 +15,8 @@
 
 > #### danger::仅供学习研究技术用
 > 此处提供破解版，仅供学习研究技术用，请勿用于其他非法和商业用途。请支持正版。
+> 
+> 如有侵权，请联系笔者删除
 
 * 下载JEB
   * 下载地址：[JEB-5.2.0.202308292043_by_CXV.7z ~ pixeldrain](https://pixeldrain.com/u/iPz6HCP2)
@@ -60,4 +62,4 @@
         * 点击`Generate a Key` -> `Continue`
           * ![first_launch_generate_key](../assets/img/first_launch_generate_key.png)
   * 主界面
-    * ![jeb_ui_main_dark](../assets/img/jeb_ui_main_dark.png)
+    * ![jeb_ui_main_dark](../assets/img/jeb_ui_main_dark.jpg)

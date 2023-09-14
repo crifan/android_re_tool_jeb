@@ -2,4 +2,4 @@
 
 * 反编译效果
   * 匿名内部类：`JEB` > `jadx`
-    * ![jeb_decompile_inner_class_good](../../assets/img/jeb_decompile_inner_class_good.png)
+    * ![jeb_decompile_inner_class_good](../../assets/img/jeb_decompile_inner_class_good.jpg)
