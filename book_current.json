@@ -1,0 +1,19 @@
+{
+  "title": "安卓逆向利器：JEB",
+  "description": "介绍安卓逆向中的好用工具JEB，主要用于静态分析中的反编译apk/dex，和动态调试安卓程序。",
+  "pluginsConfig": {
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "android_re_tool_jeb"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.org/books/android_re_tool_jeb/website/"
+    },
+    "toolbar-button": {
+      "url": "https://book.crifan.org/books/android_re_tool_jeb/pdf/android_re_tool_jeb.pdf"
+    }
+  }
+}
