@@ -25,7 +25,7 @@
 * 运行JEB
   * 解压后，运行对应脚本
     * Mac的：`jeb_macos.sh`
-      * ![jeb_macos_click](../assets/img/jeb_macos_click.png)
+      * ![jeb_macos_click](../assets/img/jeb_macos_click.jpg)
     * Win的：`jeb_wincon.bat`
     * Linux的：`jeb_linux.sh`
   * 运行方式

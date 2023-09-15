@@ -8,11 +8,11 @@
 
 直接把`360Wallpaper`的`apk`文件，直接拖动到JEB中：
 
-![jeb_decompile_apk_360wallpaper](../../assets/img/jeb_decompile_apk_360wallpaper.png)
+![jeb_decompile_apk_360wallpaper](../../assets/img/jeb_decompile_apk_360wallpaper.jpg)
 
 会弹框`Project Property`：
 
-![jeb_decompile_project_property_apk](../../assets/img/jeb_decompile_project_property_apk.png)
+![jeb_decompile_project_property_apk](../../assets/img/jeb_decompile_project_property_apk.jpg)
 
 此处可以自动识别输入文件类型是：`apk`，所以自动选择了`apk`的配置，保持默认配置即可，点击：`OK`，继续反编译：
 
@@ -30,6 +30,6 @@
 
 然后就可以看到，反编译后的主界面了：
 
-![jeb_decompiled_main_ui](../../assets/img/jeb_decompiled_main_ui.png)
+![jeb_decompiled_main_ui](../../assets/img/jeb_decompiled_main_ui.jpg)
 
 如此，反编译就结束了。

@@ -16,11 +16,11 @@
 
 会弹框开始反编译：
 
-![jeb_decompiling_to_java](../../assets/img/jeb_decompiling_to_java.png)
+![jeb_decompiling_to_java](../../assets/img/jeb_decompiling_to_java.jpg)
 
 首次会有（勾选不再提示后，之后就不会再显示）额外的弹框提示，新的反编译的内容要显示在新的视图，但要替代当前视图：
 
-![jeb_tip_view_replaced](../../assets/img/jeb_tip_view_replaced.png)
+![jeb_tip_view_replaced](../../assets/img/jeb_tip_view_replaced.jpg)
 
 以及还会提示，显示窗口要分左右两个子窗口，右边用于显示刚反编译出来的java源代码：
 
@@ -28,4 +28,4 @@
 
 然后就可以正常显示反编译后的java源代码了：
 
-![jeb_show_decompiled_java_code](../../assets/img/jeb_show_decompiled_java_code.png)
+![jeb_show_decompiled_java_code](../../assets/img/jeb_show_decompiled_java_code.jpg)

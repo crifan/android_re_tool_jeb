@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v0.7.1",
-  "lastUpdate": "20230914",
+  "latestVersion": "v0.8.0",
+  "lastUpdate": "20230915",
   "gitRepoName": "android_re_tool_jeb",
   "bookName": "安卓逆向利器：JEB",
   "bookDescription": "介绍安卓逆向中的好用工具JEB，主要用于静态分析中的反编译apk/dex，和动态调试安卓程序。"
