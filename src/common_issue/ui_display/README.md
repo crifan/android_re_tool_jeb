@@ -2,7 +2,7 @@
 
 ## 白天和夜晚模式切换后，界面显示不正常
 
-* 问题：Mac中，从白天进入夜晚（或者反过来，从从夜晚过了一夜到了第二天白天），白天和夜晚模式切换后，所有页面全都显示异常：
+* 问题：Mac中，从白天进入夜晚（或者反过来，从夜晚过了一夜到了第二天白天），白天和夜晚模式切换后，所有页面全都显示异常：
   * Project Explorer、Bytecode/Hierarchy，Preferences设置页面等窗口，都无法看清内容
     * ![jeb_dark_mode_many_abnormal](../../assets/img/jeb_dark_mode_many_abnormal.jpg)
 * 原因：JEB的bug
