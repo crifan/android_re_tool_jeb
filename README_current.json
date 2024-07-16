@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v1.0.0",
-  "lastUpdate": "20230916",
+  "latestVersion": "v1.0.1",
+  "lastUpdate": "20240716",
   "gitRepoName": "android_re_tool_jeb",
   "bookName": "安卓逆向利器：JEB",
   "bookDescription": "介绍安卓逆向中的好用工具JEB，主要用于静态分析中的反编译apk/dex，和动态调试安卓程序。先是JEB概览；然后是如何下载和运行JEB；然后介绍JEB的功能和界面，包括Bytecode/Hierarchy、单个文件多个显示模式、底部多个Tab页、保存项目为jdb2文件、多主题显示效果、支持的反编译器、脚本功能、插件机制；然后介绍JEB的静态分析，包括反编译安卓apk，其中包含反编译出java和解析so库文件；反编译出java包括单个反编译、全部反编译、反编译效果对比，其下包括JEB和jadx对比；接着是JEB动态调试；以及JEB使用心得，包括页面显示方面和反编译java代码方面；以及JEB常见问题，包括页面显示问题和反编译java代码问题。"

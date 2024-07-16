@@ -15,6 +15,7 @@
 * 【记录】用JEB反编译360Wallpaper最后由于超时而结束
 * 【记录】安卓apk反编译java代码效果对比：JEB对比jadx
 * 【已解决】安卓保活逆向360Wallpaper：jadx反编译代码中e.i的通用字符串加密解密函数
+* 【已解决】Mac中JEB分析抖音apk报错：Error java.lang.OutOfMemoryError Java heap space
 * 
 * [Android逆向开发](https://book.crifan.org/books/android_reverse_dev/website/)
 * [Android逆向：静态分析](https://book.crifan.org/books/android_re_static_analysis/website/)

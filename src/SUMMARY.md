@@ -26,6 +26,7 @@
   * [页面显示心得](usage_summary/ui_config/README.md)
   * [反编译java代码心得](usage_summary/decompile_java/README.md)
 * [JEB常见问题](common_issue/README.md)
+  * [apk解析问题](common_issue/parse_apk/README.md)
   * [页面显示问题](common_issue/ui_display/README.md)
   * [反编译java代码问题](common_issue/decompile_java/README.md)
 * [附录](appendix/README.md)
