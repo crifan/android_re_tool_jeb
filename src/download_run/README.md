@@ -26,7 +26,7 @@
       * 要先购买
         * [Purchase a JEB license - JEB Decompiler by PNF Software](https://www.pnfsoftware.com/jeb/buy)
           * 价格
-            * ![jeb_license_price_cost](../assets/img/jeb_license_price_cost.png)
+            * ![jeb_license_price_cost](../assets/img/jeb_license_price_cost.jpg)
 
 ### JEB收费版的破解版
 
@@ -38,7 +38,7 @@
 * 下载JEB
   * 下载地址：[JEB-5.2.0.202308292043_by_CXV.7z ~ pixeldrain](https://pixeldrain.com/u/iPz6HCP2)
     * 下载得到 460MB+ 的：`JEB-5.2.0.202308292043_by_CXV.7z`
-      * ![jeb_5_2_7z_cxv](../assets/img/jeb_5_2_7z_cxv.png)
+      * ![jeb_5_2_7z_cxv](../assets/img/jeb_5_2_7z_cxv.jpg)
 * 运行JEB
   * 解压后，运行对应脚本
     * Mac的：`jeb_macos.sh`
@@ -50,7 +50,7 @@
       * 比如
         * 调用文本编辑器打开sh脚本
         * 报其他错误：`A session ended very soon after starting. Check that the command in profile "Default" is correct.`
-          * ![sh_run_session_ended](../assets/img/sh_run_session_ended.png)
+          * ![sh_run_session_ended](../assets/img/sh_run_session_ended.jpg)
     * 则去加上可执行权限
       * Mac中
         ```bash

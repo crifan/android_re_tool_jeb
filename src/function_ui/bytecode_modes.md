@@ -1,15 +1,15 @@
 # Bytecode的多个显示模式
 
 * Description=描述
-  * ![jeb_bytecode_mode_description](../assets/img/jeb_bytecode_mode_description.png)
+  * ![jeb_bytecode_mode_description](../assets/img/jeb_bytecode_mode_description.jpg)
 * Hex Dump
   * ![jeb_bytecode_mode_hex_dump](../assets/img/jeb_bytecode_mode_hex_dump.jpg)
 * Disassembly
   * ![jeb_bytecode_mode_disassembly](../assets/img/jeb_bytecode_mode_disassembly.jpg)
 * Graph
-  * ![jeb_bytecode_mode_graph](../assets/img/jeb_bytecode_mode_graph.png)
+  * ![jeb_bytecode_mode_graph](../assets/img/jeb_bytecode_mode_graph.jpg)
 * Callgraph
-  * ![jeb_bytecode_mode_callgraph](../assets/img/jeb_bytecode_mode_callgraph.png)
+  * ![jeb_bytecode_mode_callgraph](../assets/img/jeb_bytecode_mode_callgraph.jpg)
     * 注：点击后，会卡死
       * 但是后来某次点击，暂时没卡死，出现弹框
         * ![jeb_callgraph_package_filters](../assets/img/jeb_callgraph_package_filters.png)
@@ -18,7 +18,7 @@
       * 但是耗时太久，就放弃了
         * TODO：抽空再试试效果
 * Strings
-  * ![jeb_bytecode_mode_strings](../assets/img/jeb_bytecode_mode_strings.png)
+  * ![jeb_bytecode_mode_strings](../assets/img/jeb_bytecode_mode_strings.jpg)
 
 
 顺带贴出Bytecode的`Disassembly`的部分代码：

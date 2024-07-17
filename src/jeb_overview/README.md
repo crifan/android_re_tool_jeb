@@ -45,4 +45,4 @@
   * 主页
     * [JEB Decompiler by PNF Software](https://www.pnfsoftware.com/)
       * [JEB Android Decompiler - JEB Decompiler by PNF Software](https://www.pnfsoftware.com/jeb/android)
-        * ![jeb_homepage_intro](../assets/img/jeb_homepage_intro.png)
+        * ![jeb_homepage_intro](../assets/img/jeb_homepage_intro.jpg)

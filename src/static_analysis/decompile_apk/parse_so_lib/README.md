@@ -4,7 +4,7 @@
 
 展开到：`apk`->`app包名`->`Libraries`->此处的某个so库文件：`libThreeWP.so`
 
-![jeb_apk_libraries_so_file](../../../assets/img/jeb_apk_libraries_so_file.png)
+![jeb_apk_libraries_so_file](../../../assets/img/jeb_apk_libraries_so_file.jpg)
 
 然后可以分别查看解析效果：
 
@@ -27,7 +27,7 @@
   * metadata
     * ![jeb_so_sub_metadata](../../../assets/img/jeb_so_sub_metadata.jpg)
   * arm64 image
-    * ![jeb_so_sub_arm64_image](../../../assets/img/jeb_so_sub_arm64_image.png)
+    * ![jeb_so_sub_arm64_image](../../../assets/img/jeb_so_sub_arm64_image.jpg)
     * 其也有各个子页面
       * Description
         * ![jeb_so_arm64_description](../../../assets/img/jeb_so_arm64_description.jpg)

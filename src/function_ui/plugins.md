@@ -3,7 +3,7 @@
 JEB支持插件机制。内置就有一些插件：
 
 * `JEB`->`File`->`Plugins`->`Execute and Engins Plugin`
-  * ![jeb_file_plugins_engine](../assets/img/jeb_file_plugins_engine.png)
+  * ![jeb_file_plugins_engine](../assets/img/jeb_file_plugins_engine.jpg)
     * 可以看到内置引擎插件
       * Android Code Signature Generator
       * Android Code Recogintion

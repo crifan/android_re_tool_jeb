@@ -4,13 +4,13 @@ JEB中显示方面，支持多个主题：
 
 * 如何切换主题？
   * `JEB`->`Edit`-`Switch Theme`
-    * ![jeb_edit_switch_theme](../assets/img/jeb_edit_switch_theme.png)
+    * ![jeb_edit_switch_theme](../assets/img/jeb_edit_switch_theme.jpg)
 * 不同主题的名称
   * 最开始以为：JEB中无法查看当前主题的名称
     * 只能看到主题效果
   * 后记：后来找到了主题设置，才看到主题名称（吐槽：JEB的设置很分散，很混乱）
     * `JEB`->`Edit`->`Font and styles`
-      * ![jeb_edit_font_styles](../assets/img/jeb_edit_font_styles.png)
+      * ![jeb_edit_font_styles](../assets/img/jeb_edit_font_styles.jpg)
     * 然后可以看到主题名称，可以切换主题
       * ![jeb_theme_select_theme](../assets/img/jeb_theme_select_theme.png)
         * Standard Theme == 黑色

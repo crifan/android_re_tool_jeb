@@ -1,13 +1,13 @@
 # 单个反编译
 
 * 背景：JEB默认情况下去反编译apk的话，显示的是Bytecode字节码：
-  * ![jeb_decompiled_show_bytecode](../../../assets/img/jeb_decompiled_show_bytecode.png)
+  * ![jeb_decompiled_show_bytecode](../../../assets/img/jeb_decompiled_show_bytecode.jpg)
   * 而不是我们要的`Java`代码
 * 需求：对于单个类去反编译出java代码
 
 从左下角窗口中，展开找到自己要反编译的java的类->右键->`Decompile`：
 
-![jeb_choose_class_right_decompile](../../../assets/img/jeb_choose_class_right_decompile.png)
+![jeb_choose_class_right_decompile](../../../assets/img/jeb_choose_class_right_decompile.jpg)
 
 会弹框开始反编译：
 

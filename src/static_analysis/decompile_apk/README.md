@@ -18,15 +18,15 @@
 
 然后会弹框`Task`，开始处理：
 
-![jeb_task_processing_artifact](../../assets/img/jeb_task_processing_artifact.png)
+![jeb_task_processing_artifact](../../assets/img/jeb_task_processing_artifact.jpg)
 
 此处由于类太多，所以会提示，问是否继续，点击`Yes`：
 
-![jeb_tip_many_resource_now](../../assets/img/jeb_tip_many_resource_now.png)
+![jeb_tip_many_resource_now](../../assets/img/jeb_tip_many_resource_now.jpg)
 
 后续，由于反编译出来的类太多以及类有很多子类和属性children，所以会提示会按组分类显示，点击`OK`：
 
-![jeb_tip_children_much_group](../../assets/img/jeb_tip_children_much_group.png)
+![jeb_tip_children_much_group](../../assets/img/jeb_tip_children_much_group.jpg)
 
 然后就可以看到，反编译后的主界面了：
 

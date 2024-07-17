@@ -1,7 +1,7 @@
 # 反编译器
 
 * `JEB`->`File`->`Decompilers`
-  * ![jeb_file_decompilers](../assets/img/jeb_file_decompilers.png)
+  * ![jeb_file_decompilers](../assets/img/jeb_file_decompilers.jpg)
     * ![jeb_multiple_decompilers](../assets/img/jeb_multiple_decompilers.png)
 * -> 可以看到当前JEB版本，所支持的各种架构的反编译器
   * dex (`DEX` Decompiler)

@@ -23,7 +23,7 @@ JEB导入apk解析过程期间，也会遇到一些常见问题。
 [C] 	at java.base/java.util.HashMap.put(HashMap.java:610)
 ```
 
-![jeb_parse_apk_java_lang_outofmemoryerror](../../assets/img/jeb_parse_apk_java_lang_outofmemoryerror.png)
+![jeb_parse_apk_java_lang_outofmemoryerror](../../assets/img/jeb_parse_apk_java_lang_outofmemoryerror.jpg)
 
 * 原因：Java的JVM的内存不够用了，超过最大允许的内存，而崩溃
 * 解决办法：增加最大内存

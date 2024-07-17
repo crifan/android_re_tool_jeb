@@ -50,6 +50,6 @@
 
 最后确认，的确导出了17285个文件：
 
-![jeb_decompiled_exported_17k_files](../../../assets/img/jeb_decompiled_exported_17k_files.png)
+![jeb_decompiled_exported_17k_files](../../../assets/img/jeb_decompiled_exported_17k_files.jpg)
 
 如此，反编译就算完成了。

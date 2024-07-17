@@ -1,7 +1,7 @@
 # JEB底部多个tab页
 
 * Logger
-  * ![jeb_bottom_tab_logger](../assets/img/jeb_bottom_tab_logger.png)
+  * ![jeb_bottom_tab_logger](../assets/img/jeb_bottom_tab_logger.jpg)
 * Terminal
   * ![jeb_bottom_tab_terminal](../assets/img/jeb_bottom_tab_terminal.png)
 * Quick Search

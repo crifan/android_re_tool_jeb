@@ -4,7 +4,7 @@
 
 `JEB`->`File`->`Save As`，会提示`Save the current projec to JDB2 database`
 
-![jeb_save_jdb2_file](../assets/img/jeb_save_jdb2_file.png)
+![jeb_save_jdb2_file](../assets/img/jeb_save_jdb2_file.jpg)
 
 给文件起个名字：
 
@@ -29,10 +29,10 @@
 
 然后会有弹框显示保存进度：
 
-![jeb_popup_save_progress](../assets/img/jeb_popup_save_progress.png)
+![jeb_popup_save_progress](../assets/img/jeb_popup_save_progress.jpg)
 
 此处保存耗时大概几十秒，总体上还算可以接受。
 
 保存出的`.jdb2`文件：
 
-![jeb_saved_jdb2_file](../assets/img/jeb_saved_jdb2_file.png)
+![jeb_saved_jdb2_file](../assets/img/jeb_saved_jdb2_file.jpg)

@@ -42,7 +42,7 @@
       * 有时候是`206007`的版本更好点
         * 举例
           * 此处还原了`System.getenv("PATH")`的逻辑，而不是输出所有返回的结果的列表
-            * ![jeb_decompile_206007_getenv_call_2008_list](../../assets/img/jeb_decompile_206007_getenv_call_2008_list.png)
+            * ![jeb_decompile_206007_getenv_call_2008_list](../../assets/img/jeb_decompile_206007_getenv_call_2008_list.jpg)
               * `206007`版本相关代码
                 ```java
                   String s = System.getenv("PATH");
@@ -88,3 +88,39 @@
 或者实在不行，再多弄几次代码的全部反编译，对比找到相对最优的结果。
 
 总之对于反编译结果最后卡死，以及每次输出结果不一致不稳定，还是有点麻烦的。
+
+### OOM内存崩溃问题：java.lang.OutOfMemoryError Compressed class space
+
+* 现象
+  * 用JEB反编译抖音，导出全部源码时，最后报错：
+    ```bash
+    [C] Thread[main,5,main] terminated unexpectedly:
+    [C] java.lang.OutOfMemoryError: Compressed class space
+    ```
+    * ![jeb_outofmemoryerror_compressed_class_space](../../assets/img/jeb_outofmemoryerror_compressed_class_space.jpg)
+* 原因：抖音内部代码量太大，反编译全部源码所要消耗资源太多，导致默认的`CompressedClassSpaceSize=1G`，不够用，从而造成此处报错，Compressed class space出现OOM内存崩溃不够用的问题
+* 解决办法：增大`CompressedClassSpaceSize`的大小
+* 具体步骤：
+  * 先要确认：`CompressedClassSpaceSize`应该设置为多大的值
+    * 此处`CompressedClassSpaceSize`的范围是：最小是`1048576=1M`，最大是`3221225472=3G`，所以此处设置为最大的**3G**
+  * 再去设置参数
+    * 此处JEB的Mac启动脚本：`/Users/crifan/dev/dev_tool/_reverse_security/android/JEB/JEB-5.2.0.202308292043_by_CXV/jeb_macos.sh`中
+      ```sh
+      JVMOPT="-XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:CompressedClassSpaceSize=3G -Xss4M -Xmx42G"
+      ```
+      * 参数含义解释
+        * `-XX:+UseCompressedClassPointers`
+          * （默认其实已开启，但是此处确保的确）开启`UseCompressedClassPointers`
+        * `-XX:+UseCompressedOops`
+          * （默认其实已开启，但是此处确保的确）开启`UseCompressedOops`
+        * `-XX:CompressedClassSpaceSize=3G`
+          * 设置`CompressedClassSpaceSize`为`3G`
+            * 注：默认大小是**1G**
+        * `-Xss4M`
+          * == `-XX:ThreadStackSize=4M`
+          * 含义：每个线程的堆栈大小：4MB
+        * `-Xmx42G`
+          * 最大堆栈内存：`42G`
+
+从而使得`CompressedClassSpaceSize`的空间足够大，可以避免最后反编译导出全部源码时，`CompressedClassSpaceSize`空间超过最大大小，就不会报`java.lang.OutOfMemoryError Compressed class space`的错了。
+

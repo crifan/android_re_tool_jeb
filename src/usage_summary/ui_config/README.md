@@ -6,7 +6,7 @@
 
 具体步骤：`JEB`->`Project Explorer`->展开apk列表->`Bytecode`->右键->`Open View`
 
-![jeb_project_explorer_bytecode_open_view](../../assets/img/jeb_project_explorer_bytecode_open_view.png)
+![jeb_project_explorer_bytecode_open_view](../../assets/img/jeb_project_explorer_bytecode_open_view.jpg)
 
 即可重新看到，左下方显示我们要的：`Bytecode/Hierarchy`窗口：
 
